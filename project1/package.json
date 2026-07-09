@@ -1,0 +1,12 @@
+{
+  "name": "collab-project-manager",
+  "version": "1.0.0",
+  "description": "Collaborative project management tool like Trello/Asana",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
